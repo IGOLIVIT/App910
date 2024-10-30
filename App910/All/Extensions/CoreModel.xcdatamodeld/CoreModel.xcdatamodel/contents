@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="JewelModel" representedClassName="JewelModel" syncable="YES" codeGenerationType="class">
+        <attribute name="jewDate" optional="YES" attributeType="String"/>
+        <attribute name="jewMat" optional="YES" attributeType="String"/>
+        <attribute name="jewPhoto" optional="YES" attributeType="String"/>
+        <attribute name="jewPrice" optional="YES" attributeType="String"/>
+        <attribute name="jewTitle" optional="YES" attributeType="String"/>
+        <attribute name="jewType" optional="YES" attributeType="String"/>
+        <attribute name="jewWeight" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StonesModel" representedClassName="StonesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="stDate" optional="YES" attributeType="String"/>
+        <attribute name="stPhoto" optional="YES" attributeType="String"/>
+        <attribute name="stPrice" optional="YES" attributeType="String"/>
+        <attribute name="stSize" optional="YES" attributeType="String"/>
+        <attribute name="stTitle" optional="YES" attributeType="String"/>
+        <attribute name="stType" optional="YES" attributeType="String"/>
+        <attribute name="stWeight" optional="YES" attributeType="String"/>
+    </entity>
+</model>

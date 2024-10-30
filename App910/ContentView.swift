@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+
+    @AppStorage("status") var status: Bool = false
+    
+    init() {
+        
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        ZStack {
+            
+            Color.black
+                .ignoresSafeArea()
+            
+            if status {
+            
+                StatisticsView()
+                
+            } else {
+                
+                R1()
+            }
         }
-        .padding()
     }
 }
 

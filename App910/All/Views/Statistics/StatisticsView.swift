@@ -318,7 +318,7 @@ struct StatisticsView: View {
                     
                     Button(action: {
                         
-                        guard let url = URL(string: "") else { return }
+                        guard let url = URL(string: "https://www.termsfeed.com/live/d206e23c-5a64-4e2c-963c-79fd5b229acb") else { return }
                         
                         UIApplication.shared.open(url)
                         

@@ -34,6 +34,10 @@
 		78BAAE092CBD0DAE0017319E /* EditJew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE082CBD0DAE0017319E /* EditJew.swift */; };
 		78BAAE0C2CBD0FD20017319E /* EditStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE0B2CBD0FD20017319E /* EditStone.swift */; };
 		78BAAE0F2CBD602A0017319E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE0E2CBD602A0017319E /* CategoriesView.swift */; };
+		78CD1D1B2CDE379D00F79FCC /* LoadingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1D1A2CDE379D00F79FCC /* LoadingView2.swift */; };
+		78CD1D1D2CDE38BC00F79FCC /* Dromae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1D1C2CDE38BC00F79FCC /* Dromae.swift */; };
+		78CD1D1F2CDE38C800F79FCC /* Swedestiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1D1E2CDE38C800F79FCC /* Swedestiv.swift */; };
+		78CD1D212CDE38D400F79FCC /* Whaem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1D202CDE38D400F79FCC /* Whaem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		78BAAE082CBD0DAE0017319E /* EditJew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJew.swift; sourceTree = "<group>"; };
 		78BAAE0B2CBD0FD20017319E /* EditStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStone.swift; sourceTree = "<group>"; };
 		78BAAE0E2CBD602A0017319E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		78CD1D1A2CDE379D00F79FCC /* LoadingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView2.swift; sourceTree = "<group>"; };
+		78CD1D1C2CDE38BC00F79FCC /* Dromae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dromae.swift; sourceTree = "<group>"; };
+		78CD1D1E2CDE38C800F79FCC /* Swedestiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swedestiv.swift; sourceTree = "<group>"; };
+		78CD1D202CDE38D400F79FCC /* Whaem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whaem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,9 @@
 				78BAADEB2CBC159E0017319E /* CoreDataStack.swift */,
 				78BAADED2CBC15A40017319E /* Array.swift */,
 				78BAADFF2CBC1B190017319E /* DateConvert.swift */,
+				78CD1D1C2CDE38BC00F79FCC /* Dromae.swift */,
+				78CD1D1E2CDE38C800F79FCC /* Swedestiv.swift */,
+				78CD1D202CDE38D400F79FCC /* Whaem.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				78BAADDD2CBC150A0017319E /* LoadingView.swift */,
+				78CD1D1A2CDE379D00F79FCC /* LoadingView2.swift */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -346,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BAADC02CBC14740017319E /* ContentView.swift in Sources */,
+				78CD1D1D2CDE38BC00F79FCC /* Dromae.swift in Sources */,
 				78BAADDE2CBC150A0017319E /* LoadingView.swift in Sources */,
 				78BAADFE2CBC15F80017319E /* StonesViewModel.swift in Sources */,
 				78BAADE42CBC15800017319E /* U1.swift in Sources */,
@@ -359,13 +372,16 @@
 				78BAAE002CBC1B190017319E /* DateConvert.swift in Sources */,
 				78BAAE032CBC21ED0017319E /* AddJew.swift in Sources */,
 				78BAADF02CBC15BF0017319E /* StatisticsView.swift in Sources */,
+				78CD1D1F2CDE38C800F79FCC /* Swedestiv.swift in Sources */,
 				78BAADE62CBC15860017319E /* Reviews.swift in Sources */,
 				78BAADEC2CBC159E0017319E /* CoreDataStack.swift in Sources */,
 				78BAADBE2CBC14740017319E /* App910App.swift in Sources */,
+				78CD1D1B2CDE379D00F79FCC /* LoadingView2.swift in Sources */,
 				78BAAE092CBD0DAE0017319E /* EditJew.swift in Sources */,
 				78BAADE82CBC158C0017319E /* Not.swift in Sources */,
 				78BAAE0C2CBD0FD20017319E /* EditStone.swift in Sources */,
 				78BAADEE2CBC15A40017319E /* Array.swift in Sources */,
+				78CD1D212CDE38D400F79FCC /* Whaem.swift in Sources */,
 				78BAADE22CBC15760017319E /* R2.swift in Sources */,
 				78BAADEA2CBC15930017319E /* TabBar.swift in Sources */,
 				78BAADF62CBC15D70017319E /* JewelryViewModel.swift in Sources */,
@@ -516,7 +532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App910;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -555,7 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App910;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

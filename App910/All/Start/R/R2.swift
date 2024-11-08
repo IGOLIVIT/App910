@@ -15,7 +15,7 @@ struct R2: View {
 
         ZStack {
             
-            Color("prim")
+            Color("pri2")
                 .ignoresSafeArea()
             
             VStack {
@@ -45,7 +45,7 @@ struct R2: View {
                         .font(.system(size: 15, weight: .regular))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("prim")))
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("prim2")))
                 })
             }
             .padding()

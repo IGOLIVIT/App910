@@ -1,23 +1,23 @@
 //
-//  LoadingView.swift
+//  LoadingView2.swift
 //  App910
 //
-//  Created by IGOR on 13/10/2024.
+//  Created by IGOR on 08/11/2024.
 //
 
 import SwiftUI
 
-struct LoadingView: View {
+struct LoadingView2: View {
     var body: some View {
 
         ZStack {
             
-            Color("prim2")
+            LinearGradient(colors: [Color("prim3"), .black], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             VStack {
                 
-                Image("Llogo")
+                Image("Llogo2")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200)
@@ -35,5 +35,5 @@ struct LoadingView: View {
 }
 
 #Preview {
-    LoadingView()
+    LoadingView2()
 }
